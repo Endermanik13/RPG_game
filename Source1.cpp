@@ -1,1 +1,19 @@
-// Пример текстаf
+#include <iostream>
+#include <locale.h>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    setlocale(LC_ALL, "");
+    cout << "Введите значение a: ";
+    cin >> a;
+
+    cout << "Введите значение b: ";
+    cin >> b;
+
+    c = a + b;
+
+    cout << "Результат сложения: " << c << endl;
+
+    return 0;
+}
